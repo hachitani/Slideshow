@@ -14,6 +14,10 @@
 		78E46A471EEBC95F0074A63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E46A451EEBC95F0074A63B /* LaunchScreen.storyboard */; };
 		78E46A521EEBC9600074A63B /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E46A511EEBC9600074A63B /* SlideshowAppTests.swift */; };
 		78E46A5D1EEBC9600074A63B /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E46A5C1EEBC9600074A63B /* SlideshowAppUITests.swift */; };
+		78E46A6B1EEBCA010074A63B /* IMG_1785.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 78E46A6A1EEBCA010074A63B /* IMG_1785.JPG */; };
+		78E46A6D1EEBCA060074A63B /* IMG_1786.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 78E46A6C1EEBCA060074A63B /* IMG_1786.JPG */; };
+		78E46A6F1EEBCA0C0074A63B /* IMG_1921.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 78E46A6E1EEBCA0C0074A63B /* IMG_1921.JPG */; };
+		78EB3F551EEBEB3E00BE3EEC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB3F541EEBEB3E00BE3EEC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		78E46A581EEBC9600074A63B /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E46A5C1EEBC9600074A63B /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		78E46A5E1EEBC9600074A63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E46A6A1EEBCA010074A63B /* IMG_1785.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1785.JPG; sourceTree = "<group>"; };
+		78E46A6C1EEBCA060074A63B /* IMG_1786.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1786.JPG; sourceTree = "<group>"; };
+		78E46A6E1EEBCA0C0074A63B /* IMG_1921.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1921.JPG; sourceTree = "<group>"; };
+		78EB3F541EEBEB3E00BE3EEC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				78E46A3C1EEBC95F0074A63B /* AppDelegate.swift */,
 				78E46A3E1EEBC95F0074A63B /* ViewController.swift */,
 				78E46A401EEBC95F0074A63B /* Main.storyboard */,
+				78EB3F541EEBEB3E00BE3EEC /* ResultViewController.swift */,
 				78E46A431EEBC95F0074A63B /* Assets.xcassets */,
 				78E46A451EEBC95F0074A63B /* LaunchScreen.storyboard */,
 				78E46A481EEBC95F0074A63B /* Info.plist */,
+				78E46A6A1EEBCA010074A63B /* IMG_1785.JPG */,
+				78E46A6C1EEBCA060074A63B /* IMG_1786.JPG */,
+				78E46A6E1EEBCA0C0074A63B /* IMG_1921.JPG */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -235,8 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E46A6F1EEBCA0C0074A63B /* IMG_1921.JPG in Resources */,
+				78E46A6B1EEBCA010074A63B /* IMG_1785.JPG in Resources */,
 				78E46A471EEBC95F0074A63B /* LaunchScreen.storyboard in Resources */,
 				78E46A441EEBC95F0074A63B /* Assets.xcassets in Resources */,
+				78E46A6D1EEBCA060074A63B /* IMG_1786.JPG in Resources */,
 				78E46A421EEBC95F0074A63B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +279,7 @@
 			files = (
 				78E46A3F1EEBC95F0074A63B /* ViewController.swift in Sources */,
 				78E46A3D1EEBC95F0074A63B /* AppDelegate.swift in Sources */,
+				78EB3F551EEBEB3E00BE3EEC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +530,7 @@
 				78E46A631EEBC9600074A63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E46A641EEBC9600074A63B /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				78E46A661EEBC9600074A63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E46A671EEBC9600074A63B /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				78E46A691EEBC9600074A63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
